@@ -1,9 +1,0 @@
-//paciente
-db.pacientes.createIndex({ cpf: 1 }, { unique: true });
-
-// Funcionario
-
-db.Funcionário.createIndex({ "matricula": 1 }, { unique: true })
-db.Funcionário.createIndex({ "CPF": 1 }, { unique: true })
-
-
