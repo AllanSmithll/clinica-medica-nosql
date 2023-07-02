@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "64a1e7a5aa28d23aca3cfa3b"
+  },
+  "matricula": "JULME",
+  "nome": "Julieta Capuleto",
+  "cpf": "12345678901",
+  "data_nascimento": {
+    "$date": "1983-01-03T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2020-05-12T00:00:00.000Z"
+  },
+  "salario": 8000,
+  "cargo": "Diretora",
+  "bonus_salario": 15
+},
+{
+  "_id": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "matricula": "METIA",
+  "nome": "Melissa Gracias",
+  "cpf": "39834594958",
+  "data_nascimento": {
+    "$date": "1990-11-07T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2021-12-01T00:00:00.000Z"
+  },
+  "crm": "123456",
+  "gerente": {
+    "$oid": "64a1e7a5aa28d23aca3cfa3b"
+  },
+  "salario": 5500,
+  "cargo": "Pediatra",
+  "bonus_salario": 15,
+  "especialidade": {
+    "descricao": "Pediatria",
+    "preco": 120
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1eb5eaa28d23aca3cfa3d"
+  },
+  "matricula": "RUMCA",
+  "nome": "Rubens Magno",
+  "cpf": "44355566472",
+  "data_nascimento": {
+    "$date": "1983-10-02T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2021-12-01T00:00:00.000Z"
+  },
+  "crm": "125756",
+  "gerente": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "salario": 5400,
+  "cargo": "Oftalmologo",
+  "bonus_salario": 0,
+  "especialidade": {
+    "descricao": "Oftalmologia",
+    "preco": 90
+  }
+}]

@@ -1,4 +1,5 @@
-//pacientes
+// Índices
+// pacientes
 db.pacientes.createIndex({ cpf: 1 }, { unique: true });
 
 // funcionarios

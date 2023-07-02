@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "64a1ef66aa28d23aca3cfa3e"
+  },
+  "cpf": "82691696191",
+  "nome": "Allan Amancio",
+  "estado_urgencia": 1,
+  "telefones": [
+    "83982292523",
+    "83986751649"
+  ],
+  "data_nascimento": {
+    "$date": "2004-11-04T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Rua Chá de Camomila",
+    "bairro": "Centro",
+    "cidade": "São Miguel de Taipu"
+  },
+  "receitas": [
+    {
+      "medico": {
+        "$oid": "64a1eb5eaa28d23aca3cfa3d"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-05-30T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "nome": "Dipirona",
+          "descricao_uso": "Dores de cabeça"
+        },
+        {
+          "nome": "Lentes para miopia",
+          "descricao_uso": "Melhorar visão das proximidades"
+        },
+        {
+          "nome": "Lacribell",
+          "descricao_uso": "Lubrificantes da córnea"
+        }
+      ]
+    }
+  ]
+}]
