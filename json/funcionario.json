@@ -1,0 +1,152 @@
+[
+    {
+        "matricula": "METIA",
+        "cpf": "22345078901",
+        "nome": "Melissa Gracias",
+        "supervisor": "JULME",
+        "data_nascimento": "1990-11-07",
+        "data_admissao": "2021-12-01",
+        "funcao": "pediatra",
+        "salario": "5500.00"
+    },
+    {
+        "matricula": "JOMTE",
+        "cpf": "56734594949",
+        "nome": "Joaquim Fagundes",
+        "supervisor": "MARAS",
+        "data_nascimento": "1999-01-09",
+        "data_admissao": "2020-05-01",
+        "funcao": "atendente",
+        "salario": "2500.00"
+    },
+    {
+        "matricula": "QUEMT",
+        "cpf": "50754594993",
+        "nome": "Quirino Gracias",
+        "supervisor": "MARAS",
+        "data_nascimento": "1989-11-05",
+        "data_admissao": "2020-09-23",
+        "funcao": "zelador",
+        "salario": "2100.00"
+    },
+    {
+        "matricula": "IRTMA",
+        "cpf": "12754594938",
+        "nome": "Iracema Gracias",
+        "supervisor": "MARAS",
+        "data_nascimento": "1990-01-03",
+        "data_admissao": "2020-05-12",
+        "funcao": "zelador",
+        "salario": "2100.00"
+    },
+    {
+        "matricula": "KJDFD",
+        "cpf": "37837530942",
+        "nome": "Joana Maria",
+        "supervisor": "MARAS",
+        "data_nascimento": "1999-11-02",
+        "data_admissao": "2021-03-01",
+        "funcao": "enfermeiro",
+        "salario": "4750.00"
+    },
+    {
+        "matricula": "AMFRO",
+        "cpf": "94859485934",
+        "nome": "Amós Luís",
+        "supervisor": "METIA",
+        "data_nascimento": "2000-12-07",
+        "data_admissao": "2021-12-01",
+        "funcao": "pediatra",
+        "salario": "5500.00"
+    },
+    {
+        "matricula": "RUMCA",
+        "cpf": "44355566472",
+        "nome": "Rubens Magno",
+        "supervisor": "METIA",
+        "data_nascimento": "1983-10-02",
+        "data_admissao": "2019-12-01",
+        "funcao": "oftalmologo",
+        "salario": "5400.00"
+    },
+    {
+        "matricula": "WILTN",
+        "cpf": "45563565367",
+        "nome": "Wilter Venenoso",
+        "supervisor": "METIA",
+        "data_nascimento": "1983-09-02",
+        "data_admissao": "2019-09-01",
+        "funcao": "oftalmologo",
+        "salario": "5400.00"
+    },
+    {
+        "matricula": "FEJSA",
+        "cpf": "13424462564",
+        "nome": "Felipe Jorge",
+        "supervisor": "METIA",
+        "data_nascimento": "1980-10-02",
+        "data_admissao": "2020-12-01",
+        "funcao": "otorrino",
+        "salario": "5000.00"
+    },
+    {
+        "matricula": "LOSJF",
+        "cpf": "13424562564",
+        "nome": "Lorena Cerrana",
+        "supervisor": "METIA",
+        "data_nascimento": "1989-12-01",
+        "data_admissao": "2020-11-01",
+        "funcao": "otorrino",
+        "salario": "5000.00"
+    },
+    {
+        "matricula": "ROQEU",
+        "cpf": "38754874570",
+        "nome": "Robinhos Graus",
+        "supervisor": "JOIEC",
+        "data_nascimento": "2004-02-10",
+        "data_admissao": "2023-06-09",
+        "funcao": "motorista",
+        "salario": "1600.00"
+    },
+    {
+        "matricula": "JOIEC",
+        "cpf": "45958958459",
+        "nome": "Joana Maria",
+        "supervisor": null,
+        "data_nascimento": "2000-11-07",
+        "data_admissao": "2021-12-01",
+        "funcao": "motorista",
+        "salario": "1600.00"
+    },
+    {
+        "matricula": "JULME",
+        "cpf": "12345678901",
+        "nome": "Julieta Capuleto",
+        "supervisor": null,
+        "data_nascimento": "1983-01-03",
+        "data_admissao": "2020-05-12",
+        "funcao": "diretor",
+        "salario": "8000.00"
+    },
+    {
+        "matricula": "MARAS",
+        "cpf": "39834594958",
+        "nome": "Maria Claudia",
+        "supervisor": "JULME",
+        "data_nascimento": "2000-10-02",
+        "data_admissao": "2019-04-01",
+        "funcao": "atendente",
+        "salario": "2500.00"
+    },
+    {
+        "matricula": "ATUFO",
+        "cpf": "91889438403",
+        "nome": "Atúlio Marcos",
+        "supervisor": "MARAS",
+        "data_nascimento": "1999-11-02",
+        "data_admissao": "2021-03-01",
+        "funcao": "enfermeiro",
+        "salario": "4750.00"
+    }
+]
