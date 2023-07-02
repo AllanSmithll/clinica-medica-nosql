@@ -1,0 +1,14 @@
+[
+    {
+        "descricao": "oftalmologia",
+        "preco": "90.00"
+    },
+    {
+        "descricao": "pediatria",
+        "preco": "120.00"
+    },
+    {
+        "descricao": "otorrinolaringologia",
+        "preco": "150.00"
+    }
+]

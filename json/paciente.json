@@ -1,0 +1,372 @@
+[
+    {
+        "cpf": "00593248718",
+        "nome": "Daniela Duarte",
+        "estadoUrgencia": 2,
+        "dataNascimento": "1972-10-22",
+        "rua": "rua do comércio",
+        "bairro": "centro",
+        "cidade": "são miguel de taipu",
+        "telefones": [
+            "83977778888"
+        ],
+        "receitas": [
+            {
+                "id": 10,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-06-15",
+                "remedios": [
+                    {
+                        "nome": "Dipirona",
+                        "descricaoUso": "Anticoncepcional oral"
+                    },
+                    {
+                        "nome": "Diane 35",
+                        "descricaoUso": "Anticoncepcional oral"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "17583999459",
+        "nome": "Pedro Santos",
+        "estadoUrgencia": 3,
+        "dataNascimento": "2000-03-10",
+        "rua": "rua batista",
+        "bairro": "centro",
+        "cidade": "são miguel de taipu",
+        "telefones": [
+            "83933333333"
+        ],
+        "receitas": [
+            {
+                "id": 4,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Amoxicilina",
+                        "descricaoUso": "Dificuldade para respirar."
+                    },
+                    {
+                        "nome": "Clavulanato de potássio",
+                        "descricaoUso": "Dificuldade para respirar."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "24874727359",
+        "nome": "Carlos Cunha",
+        "estadoUrgencia": 1,
+        "dataNascimento": "1985-05-05",
+        "rua": "av. paulista",
+        "bairro": "bela vista",
+        "cidade": "pilar",
+        "telefones": [
+            "83933334444",
+            "83955556666"
+        ],
+        "receitas": [
+            {
+                "id": 9,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-15",
+                "remedios": [
+                    {
+                        "nome": "Dramin",
+                        "descricaoUso": "Tratamento para labirintite"
+                    },
+                    {
+                        "nome": "Betahistina",
+                        "descricaoUso": "Tratamento para labirintite"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-15",
+                "remedios": [
+                    {
+                        "nome": "Dramin",
+                        "descricaoUso": "Tratamento para labirintite"
+                    },
+                    {
+                        "nome": "Betahistina",
+                        "descricaoUso": "Tratamento para labirintite"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "30729081210",
+        "nome": "Maria Souza",
+        "estadoUrgencia": 1,
+        "dataNascimento": "1985-09-20",
+        "rua": "rua laranja",
+        "bairro": "café do vento",
+        "cidade": "sobrado",
+        "telefones": [
+            "83911111111",
+            "83922222222"
+        ],
+        "receitas": [
+            {
+                "id": 3,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Dextrometorfano",
+                        "descricaoUso": "Dores no peito, dificuldade para respirar."
+                    },
+                    {
+                        "nome": "Guaifenesina",
+                        "descricaoUso": "Dores no peito, dificuldade para respirar."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Dextrometorfano",
+                        "descricaoUso": "Dores no peito, dificuldade para respirar."
+                    },
+                    {
+                        "nome": "Guaifenesina",
+                        "descricaoUso": "Dores no peito, dificuldade para respirar."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "59485598603",
+        "nome": "Lucas Alvares",
+        "estadoUrgencia": 5,
+        "dataNascimento": "2004-11-03",
+        "rua": "marieta araujo",
+        "bairro": "ernani satiro",
+        "cidade": "joão pessoa",
+        "telefones": [
+            null
+        ],
+        "receitas": [
+            {
+                "id": null,
+                "data_realizacao": null,
+                "data_validade": null,
+                "remedios": null
+            }
+        ]
+    },
+    {
+        "cpf": "61814352624",
+        "nome": "Ana Oliveira",
+        "estadoUrgencia": 1,
+        "dataNascimento": "1995-07-02",
+        "rua": "avenida são jorge",
+        "bairro": "centro",
+        "cidade": "são miguel de taipu",
+        "telefones": [
+            "83944444444"
+        ],
+        "receitas": [
+            {
+                "id": 5,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Lentes para astigmatismo",
+                        "descricaoUso": "Dificuldades para enxergar "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "73536904461",
+        "nome": "Bruna Bastos",
+        "estadoUrgencia": 4,
+        "dataNascimento": "2000-02-20",
+        "rua": "rua das flores",
+        "bairro": "centro",
+        "cidade": "são miguel de taipu",
+        "telefones": [
+            "83911112222"
+        ],
+        "receitas": [
+            {
+                "id": 8,
+                "data_realizacao": "2023-05-01",
+                "data_validade": "2023-06-01",
+                "remedios": [
+                    {
+                        "nome": "Clorfeniramina",
+                        "descricaoUso": "Medicação para alergia"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "81763444962",
+        "nome": "João Silva",
+        "estadoUrgencia": 2,
+        "dataNascimento": "1990-05-15",
+        "rua": "rua 2 de novembro",
+        "bairro": "centro",
+        "cidade": "são miguel de taipu",
+        "telefones": [
+            "83912345678",
+            "83987654321"
+        ],
+        "receitas": [
+            {
+                "id": 2,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Proteção contra luz azul",
+                        "descricaoUso": "Dores de cabeça ao se expor a luz solar"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Proteção contra luz azul",
+                        "descricaoUso": "Dores de cabeça ao se expor a luz solar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "82691692345",
+        "nome": "Pedro Alves",
+        "estadoUrgencia": 3,
+        "dataNascimento": "1998-12-10",
+        "rua": "rua dos bobos",
+        "bairro": "jardim amália",
+        "cidade": "itabaiana",
+        "telefones": [
+            "83912345678",
+            "83998765432"
+        ],
+        "receitas": [
+            {
+                "id": 7,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Trílice viral",
+                        "descricaoUso": "Vacina contra rubéola"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Trílice viral",
+                        "descricaoUso": "Vacina contra rubéola"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "82691696191",
+        "nome": "Allan Alves Amancio",
+        "estadoUrgencia": 1,
+        "dataNascimento": "2004-11-04",
+        "rua": "rua chá de camomila",
+        "bairro": "centro",
+        "cidade": "são miguel de taipu",
+        "telefones": [
+            "83982292523",
+            "83986751649"
+        ],
+        "receitas": [
+            {
+                "id": 1,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Dipirona",
+                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
+                    },
+                    {
+                        "nome": "Lentes para miopia",
+                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
+                    },
+                    {
+                        "nome": "lacribel",
+                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Dipirona",
+                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
+                    },
+                    {
+                        "nome": "Lentes para miopia",
+                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
+                    },
+                    {
+                        "nome": "lacribel",
+                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cpf": "98521676000",
+        "nome": "Lucas Rodrigues",
+        "estadoUrgencia": 2,
+        "dataNascimento": "1980-12-30",
+        "rua": "avenida josemar",
+        "bairro": "amarelas",
+        "cidade": "pilar",
+        "telefones": [
+            "83955555555"
+        ],
+        "receitas": [
+            {
+                "id": 6,
+                "data_realizacao": "2023-04-30",
+                "data_validade": "2023-05-30",
+                "remedios": [
+                    {
+                        "nome": "Trílice viral",
+                        "descricaoUso": "Vacina contra sarampo"
+                    }
+                ]
+            }
+        ]
+    }
+]
