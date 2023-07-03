@@ -1,0 +1,167 @@
+[{
+  "_id": {
+    "$oid": "64a1e7a5aa28d23aca3cfa3b"
+  },
+  "matricula": "JULME",
+  "nome": "Julieta Capuleto",
+  "cpf": "12345678901",
+  "data_nascimento": {
+    "$date": "1983-01-03T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2020-05-12T00:00:00.000Z"
+  },
+  "salario": 8000,
+  "cargo": "Diretora",
+  "bonus_salario": 15
+},
+{
+  "_id": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "matricula": "METIA",
+  "nome": "Melissa Gracias",
+  "cpf": "39834594958",
+  "data_nascimento": {
+    "$date": "1990-11-07T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2021-12-01T00:00:00.000Z"
+  },
+  "crm": "123456",
+  "gerente": {
+    "$oid": "64a1e7a5aa28d23aca3cfa3b"
+  },
+  "salario": 5500,
+  "cargo": "Pediatra",
+  "bonus_salario": 15,
+  "especialidade": {
+    "descricao": "Pediatria",
+    "preco": 120
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1eb5eaa28d23aca3cfa3d"
+  },
+  "matricula": "RUMCA",
+  "nome": "Rubens Magno",
+  "cpf": "44355566472",
+  "data_nascimento": {
+    "$date": "1983-10-02T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2021-12-01T00:00:00.000Z"
+  },
+  "crm": "125756",
+  "gerente": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "salario": 5400,
+  "cargo": "Oftalmologo",
+  "bonus_salario": 0,
+  "especialidade": {
+    "descricao": "Oftalmologia",
+    "preco": 90
+  }
+},
+{
+  "_id": {
+    "$oid": "64a2072baa28d23aca3cfa3f"
+  },
+  "matricula": "AMFRO",
+  "nome": "Amós Luís",
+  "cpf": "94859485934",
+  "data_nascimento": {
+    "$date": "2000-12-07T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2021-12-01T00:00:00.000Z"
+  },
+  "crm": "128084",
+  "gerente": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "salario": 5500,
+  "cargo": "Pediatra",
+  "bonus_salario": 0,
+  "especialidade": {
+    "descricao": "Pediatria",
+    "preco": 120
+  }
+},
+{
+  "_id": {
+    "$oid": "64a20955aa28d23aca3cfa40"
+  },
+  "matricula": "WILTN",
+  "nome": "Wilter Venenoso",
+  "cpf": "45563565367",
+  "data_nascimento": {
+    "$date": "1983-09-02T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2019-09-01T00:00:00.000Z"
+  },
+  "crm": "128089",
+  "gerente": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "salario": 5400,
+  "cargo": "Oftalmologo",
+  "bonus_salario": 0,
+  "especialidade": {
+    "descricao": "Oftalmologia",
+    "preco": 90
+  }
+},
+{
+  "_id": {
+    "$oid": "64a20a78aa28d23aca3cfa41"
+  },
+  "matricula": "FEJSA",
+  "nome": "Felipe Jorge",
+  "cpf": "13424462564",
+  "data_nascimento": {
+    "$date": "1980-10-02T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2020-12-01T00:00:00.000Z"
+  },
+  "crm": "549854",
+  "gerente": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "salario": 5000,
+  "cargo": "Otorrino",
+  "bonus_salario": 0,
+  "especialidade": {
+    "descricao": "Otorrinolaringologia",
+    "preco": 150
+  }
+},
+{
+  "_id": {
+    "$oid": "64a20bdfaa28d23aca3cfa42"
+  },
+  "matricula": "LOSJF",
+  "nome": "Lorena Cerrana",
+  "cpf": "13424562564",
+  "data_nascimento": {
+    "$date": "1989-12-01T00:00:00.000Z"
+  },
+  "data_admissao": {
+    "$date": "2020-11-01T00:00:00.000Z"
+  },
+  "crm": "129454",
+  "gerente": {
+    "$oid": "64a1e945aa28d23aca3cfa3c"
+  },
+  "salario": 5000,
+  "cargo": "Otorrina",
+  "bonus_salario": 0,
+  "especialidade": {
+    "descricao": "Otorrinolaringologia",
+    "preco": 150
+  }
+}]
