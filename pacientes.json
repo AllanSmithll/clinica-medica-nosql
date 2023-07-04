@@ -19,6 +19,7 @@
   },
   "receitas": [
     {
+      "id": 1,
       "medico": {
         "$oid": "64a1eb5eaa28d23aca3cfa3d"
       },
@@ -30,18 +31,239 @@
       },
       "remedios": [
         {
+          "id": 1,
           "nome": "Dipirona",
           "descricao_uso": "Dores de cabeça"
         },
         {
+          "id": 2,
           "nome": "Lentes para miopia",
           "descricao_uso": "Melhorar visão das proximidades"
         },
         {
+          "id": 3,
           "nome": "Lacribell",
           "descricao_uso": "Lubrificantes da córnea"
         }
       ]
     }
   ]
-}]
+},
+{
+  "_id": {
+    "$oid": "64a37896a04890edc150562c"
+  },
+  "cpf": "81763444962",
+  "nome": "João Silva",
+  "estado_urgencia": 2,
+  "telefones": [
+    "83912345678",
+    "83987654321"
+  ],
+  "data_nascimento": {
+    "$date": "1990-05-15T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Rua 2 de Novembro",
+    "bairro": "Centro",
+    "cidade": "São Miguel do Taipu"
+  },
+  "receitas": [
+    {
+      "id": 2,
+      "medico": {
+        "$oid": "64a20955aa28d23aca3cfa40"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-05-30T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 4,
+          "nome": "Proteção contra luz azul",
+          "descricao_uso": "Alivia dores contra luz de eletroeletrônicos"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a37e6ca04890edc150562d"
+  },
+  "cpf": "30729081210",
+  "nome": "Maria Souza",
+  "estado_urgencia": 1,
+  "telefones": [
+    "83911111111",
+    "83922222222"
+  ],
+  "data_nascimento": {
+    "$date": "1985-09-20T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Rua Laranja",
+    "bairro": "Café no Vento",
+    "cidade": "Sobrado"
+  },
+  "receitas": [
+    {
+      "id": 3,
+      "medico": {
+        "$oid": "64a2072baa28d23aca3cfa3f"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-05-30T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 5,
+          "nome": "Dextrometorfano",
+          "descricao_uso": "Alivia a tosse"
+        },
+        {
+          "id": 6,
+          "nome": "Guaifenesina",
+          "descricao_uso": "Xarope expectorante"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a38200a04890edc150562e"
+  },
+  "cpf": "17583999459",
+  "nome": "Pedro Santos",
+  "estado_urgencia": 3,
+  "telefones": [
+    "83933333333"
+  ],
+  "data_nascimento": {
+    "$date": "2000-03-10T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Rua Batista",
+    "bairro": "Centro",
+    "cidade": "São Miguel do Taipu"
+  },
+  "receitas": [
+    {
+      "id": 4,
+      "medico": {
+        "$oid": "64a20a78aa28d23aca3cfa41"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-05-30T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 7,
+          "nome": "Amoxicilina",
+          "descricao_uso": "Combate a pneumonia"
+        },
+        {
+          "id": 8,
+          "nome": "Clavulanato de potássio",
+          "descricao_uso": "Combate infecções"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a3850fa04890edc150562f"
+  },
+  "cpf": "98521676000",
+  "nome": "Lucas Rodrigues",
+  "estado_urgencia": 2,
+  "telefone": [
+    "83955555555"
+  ],
+  "data_nascimento": {
+    "$date": "1980-12-30T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Avenida Josemar",
+    "bairro": "Amarelas",
+    "cidade": "Pilar"
+  },
+  "receitas": [
+    {
+      "id": 6,
+      "medico": {
+        "$oid": "64a1e945aa28d23aca3cfa3c"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-05-30T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 10,
+          "nome": "Tríplice viral",
+          "descricao_uso": "Vacina para 3 vírus"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a38723a04890edc1505630"
+  },
+  "cpf": "00593248718",
+  "nome": "Daniela Duarte",
+  "estado_urgencia": 2,
+  "telefone": [
+    "83977778888"
+  ],
+  "data_nascimento": {
+    "$date": "1972-10-22T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Avenida Josemar",
+    "bairro": "Amarelas",
+    "cidade": "Pilar"
+  },
+  "receitas": [
+    {
+      "id": 10,
+      "medico": {
+        "$oid": "64a1e945aa28d23aca3cfa3c"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-06-15T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 1,
+          "nome": "Dipirona",
+          "descricao_uso": "Dores de cabeça"
+        },
+        {
+          "id": 14,
+          "nome": "Diane 35",
+          "descricao_uso": "Anticoncepcional oral"
+        }
+      ]
+    }
+  ]
+}
+]
