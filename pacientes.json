@@ -183,12 +183,48 @@
 },
 {
   "_id": {
+    "$oid": "64a5ac45e870732d3d5e75d8"
+  },
+  "cpf": "61814352624",
+  "nome": "Ana Oliveira",
+  "estado_urgencia": 1,
+  "telefones": [
+    "83944444444"
+  ],
+  "data_nascimento": {
+    "$date": "1995-07-02T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Avenida São Jorge",
+    "bairro": "Centro",
+    "cidade": "São Miguel de Taipu"
+  },
+  "receitas": [
+    {
+      "id": 5,
+      "medico": {
+        "$oid": "64a1eb5eaa28d23aca3cfa3d"
+      },
+      "data_realizacao": "2023-04-30",
+      "data_validade": "2023-05-30",
+      "remedios": [
+        {
+          "id": 9,
+          "nome": "Lentes para astigmatismo",
+          "descricao_uso": "Dificuldades para enxergar "
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
     "$oid": "64a3850fa04890edc150562f"
   },
   "cpf": "98521676000",
   "nome": "Lucas Rodrigues",
   "estado_urgencia": 2,
-  "telefone": [
+  "telefones": [
     "83955555555"
   ],
   "data_nascimento": {
@@ -223,12 +259,139 @@
 },
 {
   "_id": {
+    "$oid": "64a5ad41e870732d3d5e75d9"
+  },
+  "cpf": "82691692345",
+  "nome": "Pedro Alves",
+  "estado_urgencia": 3,
+  "telefones": [
+    "83912345678",
+    "83998765432"
+  ],
+  "data_nascimento": {
+    "$date": "1998-12-10T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Rua dos Bobos",
+    "bairro": "Itabaiana",
+    "cidade": "Pilar"
+  },
+  "receitas": [
+    {
+      "id": 7,
+      "medico": {
+        "$oid": "64a20bdfaa28d23aca3cfa42"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade": {
+        "$date": "2023-05-30T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 10,
+          "nome": "Tríplice viral",
+          "descricao_uso": "Vacina contra rubéola"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a5b1f9e870732d3d5e75db"
+  },
+  "cpf": "73536904461",
+  "nome": "Bruna Bastos",
+  "estado_urgencia": 4,
+  "telefones": [
+    "83911112222"
+  ],
+  "data_nascimento": {
+    "$date": "2000-02-20T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Rua das Flores",
+    "bairro": "Centro",
+    "cidade": "São Miguel de Taipu"
+  },
+  "receitas": [
+    {
+      "id": 8,
+      "medico": {
+        "$oid": "64a2072baa28d23aca3cfa3f"
+      },
+      "data_realizacao": {
+        "$date": "2023-05-01T00:00:00.000Z"
+      },
+      "data_validade": {
+        "$date": "2023-06-01T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 11,
+          "nome": "Clorfeniramina",
+          "descricao_uso": "Medicação para alergia"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a5b68fe870732d3d5e75dc"
+  },
+  "cpf": "24874727359",
+  "nome": "Carlos Cunha",
+  "estado_urgencia": 1,
+  "telefones": [
+    "83933334444",
+    "83955556666"
+  ],
+  "data_nascimento": {
+    "$date": "1985-05-05T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Av. Paulista",
+    "bairro": "Bela Vista",
+    "cidade": "Pilar"
+  },
+  "receitas": [
+    {
+      "id": 9,
+      "medico": {
+        "$oid": "64a20a78aa28d23aca3cfa41"
+      },
+      "data_realizacao": {
+        "$date": "2023-04-30T00:00:00.000Z"
+      },
+      "data_validade_exame": {
+        "$date": "2023-05-15T00:00:00.000Z"
+      },
+      "remedios": [
+        {
+          "id": 12,
+          "nome": "Dramin",
+          "descricao_uso": "Tratamento para labirintite"
+        },
+        {
+          "id": 13,
+          "nome": "Betahistina",
+          "descricao_uso": "Tratamento para labirintite"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
     "$oid": "64a38723a04890edc1505630"
   },
   "cpf": "00593248718",
   "nome": "Daniela Duarte",
   "estado_urgencia": 2,
-  "telefone": [
+  "telefones": [
     "83977778888"
   ],
   "data_nascimento": {
@@ -265,5 +428,21 @@
       ]
     }
   ]
+},
+{
+  "_id": {
+    "$oid": "64a5b866e870732d3d5e75dd"
+  },
+  "cpf": "59485598603",
+  "nome": "Lucas Alvares",
+  "estado_urgencia": 5,
+  "data_nascimento": {
+    "$date": "2004-11-03T00:00:00.000Z"
+  },
+  "endereco": {
+    "rua": "Marieta Araujo",
+    "bairro": "Ernani Satiro",
+    "cidade": "João Pessoa"
+  }
 }
 ]

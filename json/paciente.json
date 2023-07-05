@@ -93,24 +93,6 @@
                         "descricaoUso": "Tratamento para labirintite"
                     }
                 ]
-            },
-            {
-                "id": 9,
-                "medico": "FEJSA",
-                "data_realizacao": "2023-04-30",
-                "data_validade": "2023-05-15",
-                "remedios": [
-                    {
-                        "id": 12,
-                        "nome": "Dramin",
-                        "descricaoUso": "Tratamento para labirintite"
-                    },
-                    {
-                        "id": 13,
-                        "nome": "Betahistina",
-                        "descricaoUso": "Tratamento para labirintite"
-                    }
-                ]
             }
         ]
     },
@@ -144,24 +126,6 @@
                         "descricaoUso": "Dores no peito, dificuldade para respirar."
                     }
                 ]
-            },
-            {
-                "id": 3,
-                "medico": "AMFRO",
-                "data_realizacao": "2023-04-30",
-                "data_validade": "2023-05-30",
-                "remedios": [
-                    {
-                        "id": 5,
-                        "nome": "Dextrometorfano",
-                        "descricaoUso": "Dores no peito, dificuldade para respirar."
-                    },
-                    {
-                        "id": 6,
-                        "nome": "Guaifenesina",
-                        "descricaoUso": "Dores no peito, dificuldade para respirar."
-                    }
-                ]
             }
         ]
     },
@@ -170,11 +134,11 @@
         "nome": "Lucas Alvares",
         "estadoUrgencia": 5,
         "dataNascimento": "2004-11-03",
-        "rua": "marieta araujo",
-        "bairro": "ernani satiro",
-        "cidade": "joão pessoa",
+        "rua": "Marieta Araujo",
+        "bairro": "Ernani Satiro",
+        "cidade": "João Pessoa",
         "telefones": [
-            null
+            "81982987678"
         ],
         "receitas": [
             {
@@ -265,19 +229,6 @@
                         "descricaoUso": "Dores de cabeça ao se expor a luz solar"
                     }
                 ]
-            },
-            {
-                "id": 2,
-                "medico": "WILTN",
-                "data_realizacao": "2023-04-30",
-                "data_validade": "2023-05-30",
-                "remedios": [
-                    {
-                        "id": 4,
-                        "nome": "Proteção contra luz azul",
-                        "descricaoUso": "Dores de cabeça ao se expor a luz solar"
-                    }
-                ]
             }
         ]
     },
@@ -306,25 +257,12 @@
                         "descricaoUso": "Vacina contra rubéola"
                     }
                 ]
-            },
-            {
-                "id": 7,
-                "medico": "LOSJF",
-                "data_realizacao": "2023-04-30",
-                "data_validade": "2023-05-30",
-                "remedios": [
-                    {
-                        "id": 10,
-                        "nome": "Tríplice viral",
-                        "descricaoUso": "Vacina contra rubéola"
-                    }
-                ]
             }
         ]
     },
     {
         "cpf": "82691696191",
-        "nome": "Allan Alves Amancio",
+        "nome": "Allan Amancio",
         "estadoUrgencia": 1,
         "dataNascimento": "2004-11-04",
         "rua": "rua chá de camomila",
@@ -335,29 +273,6 @@
             "83986751649"
         ],
         "receitas": [
-            {
-                "id": 1,
-                "medico": "RUMCA",
-                "data_realizacao": "2023-04-30",
-                "data_validade": "2023-05-30",
-                "remedios": [
-                    {
-                        "id": 1,
-                        "nome": "Dipirona",
-                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
-                    },
-                    {
-                        "id": 2,
-                        "nome": "Lentes para miopia",
-                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
-                    },
-                    {
-                        "id": 3,
-                        "nome": "lacribel",
-                        "descricaoUso": "Dificuldades para enxergar de perto e dores de cabeça."
-                    }
-                ]
-            },
             {
                 "id": 1,
                 "medico": "RUMCA",
