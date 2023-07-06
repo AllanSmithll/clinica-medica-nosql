@@ -15,22 +15,18 @@ db.pacientes.find({
 db.pacientes.aggregate([{
     $match: {
       $expr: {
-        $gte: [{
-            $size: "$receitas.remedios"
-          },
-          2
-        ]
+        $gte: [{$size: "$receitas.remedios"},2]
       }
     }
   },
   {
-    _id: 0
+    $unset: "_id"
   }
 ]);
 
 
 //consulta com pelo menos aggregate e group by; 
-/* Apresenta o nome e  no máximo duas formas de contatos para os pacientes que moram em São Miguel de Taipu, agrupando-os pelo bairro. */
+/* Apresenta o nome e no máximo duas formas de contatos para os pacientes que moram em São Miguel de Taipu, agrupando-os pelo bairro. */
 db.pacientes.aggregate([{
     $match: {
       "endereco.cidade": "São Miguel de Taipu"
@@ -54,11 +50,20 @@ db.pacientes.aggregate([{
 
 //consulta com pelo menos aggregate e lookup; 
 /* Esta consulta apresenta o nome, especialidade a quantidade e o valor arrecado pelas consultas de todos os funcionários, presentes na clínica */
-db.funcionarios.aggregate([{
+db.funcionarios.aggregate([
+  {
     $lookup: {
       from: "pacientes",
-      localField: "matricula",
-      foreignField: "receitas.medico",
+      let: { funcionarioId: "$_id" },
+      pipeline: [
+        {
+          $match: {
+            $expr: {
+              $in: ["$$funcionarioId", "$receitas.medico"]
+            }
+          }
+        }
+      ],
       as: "pacientes"
     }
   },
@@ -88,15 +93,16 @@ db.funcionarios.aggregate([{
       valorArrecadado: 1
     }
   }
-])
+]);
 
 //outra consulta (robusta) a seu critério, dentro do contexto da aplicação. 
 /* Esta consulta apresenta o nome do paciente, a quantidade de consultas realizadas para cada especialidade na clínica e no final, o valor_arrecadado de todas as consultas.*/
-db.pacientes.aggregate([{
+db.pacientes.aggregate([
+  {
     $lookup: {
       from: "funcionarios",
       localField: "receitas.medico",
-      foreignField: "matricula",
+      foreignField: "_id",
       as: "especialidades"
     }
   },
@@ -151,8 +157,7 @@ db.pacientes.aggregate([{
       }
     }
   }
-])
-
+]);
 
 // 1 consulta com pelo menos acesso a elemento de array;
 // Descobrir quais pacientes têm apenas um número de telefone cadastrado para que a clínica entre em contato para cadastrar pelo menos mais um número para casos de emergência onde o primeiro número não der certo
