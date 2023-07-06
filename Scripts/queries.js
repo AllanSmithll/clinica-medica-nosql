@@ -154,3 +154,19 @@ db.pacientes.aggregate([{
 ])
 
 
+// 1 consulta com pelo menos acesso a elemento de array;
+// Descobrir quais pacientes têm apenas um número de telefone cadastrado para que a clínica entre em contato para cadastrar pelo menos mais um número para casos de emergência onde o primeiro número não der certo
+db.pacientes.find(
+{"telefones.0": {$exists: true, $ne: null}, "telefones.1": {$exists: false}},
+{nome:1, telefones:1, _id:0}
+)
+
+
+// 1 consulta com pelo menos acesso a estrutura/objeto embutido;
+// Quero saber quem são os oftalmologistas e os preços das consultas deles
+db.funcionarios.find({"especialidade.descricao":"Oftalmologia"},{nome:1, crm:1, "especialidade.preco":1, _id:0})
+
+
+// 1 consulta com pelo menos sort e limit e filtros e projeções;
+// Qual o paciente mais grave para a gente atender neste exato momento
+db.pacientes.find({},{cpf:1, nome:1, _id:0}).sort({estado_urgencia: -1}).limit(1)
