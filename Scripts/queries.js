@@ -12,19 +12,30 @@ db.pacientes.find({
 
 // consulta com pelo menos aggregate e match ou project ou ambos; 
 //Esta pesquisa irá retorna todos os pacientes que possuem receitas com mais de dois medicamentos. 
-db.pacientes.aggregate([{
+db.pacientes.aggregate([
+  {
     $match: {
       $expr: {
-        $gte: [{$size: "$receitas.remedios"},2]
+        $gte: [
+          { $size: "$receitas" },
+          2
+        ]
       }
     }
-  },
-  {
-    $unset: "_id"
   }
-]);
-
-
+])
+db.pacientes.aggregate([
+  {
+    $match: {
+      $expr: {
+        $gte: [
+          { $size: "$receitas" },
+          2
+        ]
+      }
+    }
+  }
+])
 //consulta com pelo menos aggregate e group by; 
 /* Apresenta o nome e no máximo duas formas de contatos para os pacientes que moram em São Miguel de Taipu, agrupando-os pelo bairro. */
 db.pacientes.aggregate([{
@@ -49,51 +60,37 @@ db.pacientes.aggregate([{
 ]);
 
 //consulta com pelo menos aggregate e lookup; 
-/* Esta consulta apresenta o nome, especialidade a quantidade e o valor arrecado pelas consultas de todos os funcionários, presentes na clínica */
+/* Esta consulta apresenta o nome, especialidade a quantidade de consultas realizadas  pelos médicos */
 db.funcionarios.aggregate([
   {
     $lookup: {
       from: "pacientes",
-      let: { funcionarioId: "$_id" },
-      pipeline: [
-        {
-          $match: {
-            $expr: {
-              $in: ["$$funcionarioId", "$receitas.medico"]
-            }
-          }
-        }
-      ],
+      localField: "_id",
+      foreignField: "receitas.medico",
       as: "pacientes"
-    }
-  },
-  {
-    $unwind: "$pacientes"
-  },
-  {
-    $group: {
-      _id: {
-        funcionario: "$nome",
-        especialidade: "$especialidade.descricao"
-      },
-      quantidadePacientes: {
-        $sum: 1
-      },
-      valorArrecadado: {
-        $sum: "$especialidade.preco"
-      }
     }
   },
   {
     $project: {
       _id: 0,
-      funcionario: "$_id.funcionario",
-      especialidade: "$_id.especialidade",
-      quantidadePacientes: 1,
-      valorArrecadado: 1
+      medico: "$nome",
+      especialidade: {
+        $cond: {
+          if: { $ifNull: ["$especialidade", false] },
+          then: "$especialidade.descricao",
+          else: "Sem especialidade"
+        }
+      },
+      quantidadeConsultas: {
+        $cond: {
+          if: { $isArray: "$pacientes" },
+          then: { $size: "$pacientes" },
+          else: 0
+        }
+      }
     }
   }
-]);
+])
 
 //outra consulta (robusta) a seu critério, dentro do contexto da aplicação. 
 /* Esta consulta apresenta o nome do paciente, a quantidade de consultas realizadas para cada especialidade na clínica e no final, o valor_arrecadado de todas as consultas.*/

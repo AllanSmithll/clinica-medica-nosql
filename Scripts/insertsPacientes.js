@@ -159,7 +159,8 @@ db.pacientes.insertOne({
       id: 7,
       nome: 'Amoxicilina',
       descricao_uso: 'Combate a pneumonia'
-    }, {
+    }, 
+    {
       id: 8,
       nome: 'Clavulanato de potássio',
       descricao_uso: 'Combate infecções'
