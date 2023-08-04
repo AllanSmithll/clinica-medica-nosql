@@ -11,11 +11,6 @@
 A clínica médica São Romeu é uma instituição localizada em São Miguel do Taipu. Embora seja uma das clínicas mais buscadas pelos moradores locais, ela registra todos os seus dados de maneira arcaica, mas não por muito tempo, pois ela deseja migrar o quanto antes para um sistema informatizado, a fim de gerenciar e melhorar o atendimento para seus pacientes.
 </p>
 <hr>
-<h2>Como executar corretamente</h2>
-<ul>
-</ul>
-
-<hr />
 
 <h2>Requisitos da Aplicação</h2>
 
